@@ -32,7 +32,7 @@ public class BasePage {
 		  options.addArguments("--disable-dev-shm-using") ;
 		  options.addArguments("--window-size=1920,1080");
 		  options.addArguments("--headless") ;; driver = new RemoteWebDriver(new
-		  URL("http://54.167.125.14:4444"),options); }
+		  URL("http://54.174.23.217:8080"),options); }
 		  
 		  else {
 		 
