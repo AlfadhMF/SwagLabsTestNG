@@ -31,8 +31,11 @@ public class BasePage {
 		  options.addArguments("--no-sandbox");
 		  options.addArguments("--disable-dev-shm-using") ;
 		  options.addArguments("--window-size=1920,1080");
-		  options.addArguments("--headless") ;; driver = new RemoteWebDriver(new
-		  URL("http://54.174.23.217:8080"),options); }
+		  options.addArguments("--headless") ;
+		  driver = new ChromeDriver(Options);
+			
+		/*driver = new RemoteWebDriver(new
+		  URL("http://54.174.23.217:8080"),options); }*/
 		  
 		  else {
 		 
